@@ -1,0 +1,8 @@
+{
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-local-css": "^0.1.1"
+  }
+}

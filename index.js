@@ -10,8 +10,8 @@ function prefixStream(prefixText) {
     return stream
 }
 function getHash(file) {
-    let pathNoExt = file.basename.substring(0, file.basename.lastIndexOf('.'))
-    return '_' + hash(file.dirname + '/' + pathNoExt)
+    let pathNoExt = file.relative.substring(0, file.relative.lastIndexOf('.'))
+    return '_' + hash(pathNoExt)
 }
 function style(opts) {
     let getFileHash = getHash
