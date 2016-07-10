@@ -1,0 +1,28 @@
+{
+  "name": "gulp-local-css",
+  "version": "0.1.0",
+  "description": "local-css",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./test/",
+    "test": "node ./test/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fzred/gulp-local-css.git"
+  },
+  "keywords": [
+    "gulpplugin"
+  ],
+  "author": "lred",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fzred/gulp-local-css/issues"
+  },
+  "homepage": "https://github.com/fzred/gulp-local-css#readme",
+  "dependencies": {
+    "gulp-util": "^3.0.7",
+    "hash-sum": "^1.0.2",
+    "through2": "^2.0.1"
+  }
+}
