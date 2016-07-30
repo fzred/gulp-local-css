@@ -1,5 +1,5 @@
 # gulp-local-css
-局部css的gulp实现插件
+css局部作用域的gulp实现插件
 
 ## 安装
 ```bash
